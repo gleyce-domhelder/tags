@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>DESENVOLVIMENTO WEB</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <h1>Gleyce Martins de Oliveira</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Programação</a>
+                    <ul class="submenu">
+                        <li><a href="#resumo">Resumo</a></li>
+                        <li><a href="#web">O que é desenvolvimento web?</a></li>
+                        <li><a href="#desenvolvedor">O que faz um desenvolvedor web?</a></li>
+                        <li><a href="#significados">O que significa front-end e back-end?</a></li>
+                        <li><a href="#full-stack">O que é desenvolvimento web full-stack?</a></li>
+                        <li><a href="#tecnologias">As principais tecnologias de desenvolvimento web.</a></li>
+                        <li><a href="#resumo-tecnologia">HTML, CSS, JavaScript.</a></li>
+                        <li><a href="#editores">Melhores editores de código.</a></li>
+                        <li><a href="#hospedagem">Principais opções gratuitas para hospedagem de sites estáticos.</a>
+                        </li>
+                        <li><a href="#carreira">Dicas de como iniciar a carreira de desenvolvimento web.</a></li>
+                    </ul>
+                </li>
+                <li><a href="contato.html">Contatos</a></li>
+                <li><a href="#quem-sou-eu">Sobre mim</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <title>Formulário de contato</title>
+    </main>
+    <section>
+        <center>
+            <div class="contato">
+                <div class="content">
+                    <div class="right">
+                        <div class="topic-text">Envie sua mensagem</div>
+                        <form action="" method="post">
+                            <div class="input-box">
+                                <input name="nome" type="text" required="" title="nome completo"
+                                    placeholder="Digite seu nome">
+                            </div>
+                            <div class="input-box">
+                                <input name="email" type="email" required=""
+                                    title="email inválido, exemplo XXXXX@XXX.com" placeholder="Digite seu email">
+                            </div>
+                            <div class="input-box">
+                                <input name="Telefone" type="tel" required="" pattern="{0-9}[7]-{0-9}[4]"
+                                    title="celular inválido, exemplo ddd(XX-XXXXX-XXXX)"
+                                    placeholder="Digite seu celular">
+                            </div>
+                            <div class="input-box message-box">
+                                <textarea name="comentario" cols="40" rows="5" maxlength="200"
+                                    placeholder="Deixe sua mensagem"></textarea>
+                            </div>
+                            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
+                            <div class="button">
+                                <input type="submit" value="Enviar" onclick="capturarDadosFormulario()">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <script src="../javascript.js"></script>
+    </section>
+    <footer>
+        <p> &copy; Gleyce Martins de Oliveira - 2023 - Todas as informações encontradas nesse site são do Chat GPT
+        </p>
+    </footer>
+</body>
+
+</html>
