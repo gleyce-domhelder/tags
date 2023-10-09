@@ -17,6 +17,8 @@ function capturarDadosFormulario() {
     };
 
     const dadosArray = [dadosFormulario];
-
     alert("Seu formulário foi enviado com sucesso!");
+
+
+    window.location.href = 'https://gleyce-domhelder.github.io/tags/p%C3%A1ginas/loadingpage.html';
 }
